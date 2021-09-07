@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="styles.css">
+      <meta name="keywords" content="noticias, finanzas, bancos, dinero">
+      <meta name="description" content="Accedé al portal de noticias financieras mas importante de Argentina">
+    <title>Noticias</title>
+  </head>
+  <body> <!-- Barra de navegación contiene links a todas las páginas, responsive menú hamburguesa y bg color white-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="height: 80px;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="barra barra-nav navbar-nav">
+                <a class="nav-link active link" href="productos.html">Productos</a>
+                <a class="nav-link active link" href="criptomonedas.html">Criptomonedas</a>
+                <a class="nav-link active link" href="noticias.html">Noticias</a>
+                <a class="nav-link active link" href="trade.html" >Trade</a>
+                <a class="nav-link active registro link" href="registrarse.html" >Registrarse</a>
+                <a class="nav-link active login link" href="login.html" >Iniciar sesión</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <br><br><br>
+          <h3 class="h3-parrafo-2-index"> Accedé al portal de noticias financieras mas importante de Argentina</h3>
+        </div>
+      </div>
+    </div>
+    <main class="container">
+      <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://www.infobae.com.ar"><img src="img/BCRA.jpg" class="d-block w-100 foto-noticias" ></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="h3-parrafo-2-index">El BCRA sale al mercado vendiendo US$ 20.000.000</h5>
+                          <p class="h2-parrafo-index"> De esta manera espera controlar la fuga de divisas en los mercados paralelos <br>
+                          y asi poder estabilizar la cotización oficial.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://wwww.infobae.com.ar"><img src="img/PESOS.jpg" class="d-block w-100 foto-noticias"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="h3-parrafo-2-index">5 Inversiones que hacen del peso una opción rentable</h5>
+                          <p class="h2-parrafo-index"> Además del clásico plazo fijo, te mostramos como <br>
+                            operar con Fondos Comunes de Inversión, Seguros de caución, y más.
+                         </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://www.infobae.com.ar"><img src="img/USD.jpg" class="d-block w-100 foto-noticias"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="h3-parrafo-2-index">¿Por qué el dolar está tan caro?</h5>
+                          <p class="h2-parrafo-index"> La inflación en el último tiempo hizo que el dolar <br>
+                            sea la moneda de respaldo de los argentinos, pero ¿está realmente caro?
+                         </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </main>
+    <div class="my-5">
+      <footer class="text-center text-white">
+          <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4 pie-footer">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button">Facebook</a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com" role="button">Twitter</a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">Instagram</a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright Felipe Lonardi
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

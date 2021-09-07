@@ -1,0 +1,265 @@
+body {
+  background-color: #011627;
+}
+
+/*Nav Bar*/
+.link {
+  font-family: Quicksand;
+  text-decoration: none;
+  color: white !important;
+  font-weight: normal;
+  transition: color 1s;
+}
+
+.link:hover {
+  color: goldenrod;
+}
+
+.barra-nav {
+  font-family: Quicksand;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+.registro {
+  border: 2px solid cyan;
+  border-radius: 20px;
+}
+
+.login {
+  border: 1px solid whit;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .barra-nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .barra-nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .barra-nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .barra-nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .barra-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .barra-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .barra-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .barra-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/*Footer*/
+.pie-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*INDEX*/
+.h2-parrafo-index {
+  color: white;
+  font-family: Quicksand;
+  display: flex;
+  justify-content: center;
+}
+
+.h3-parrafo-2-index {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Quicksand;
+  font-size: x-large;
+}
+
+.div-link {
+  text-decoration: none;
+  color: white;
+  font-family: Quicksand;
+}
+
+.div-boton {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: Quicksand;
+  font-size: x-large;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*PRODUCTOS*/
+.boton-conoce-mas {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-family: Quicksand;
+  font-size: x-large;
+}
+
+/*CRIPTOMONEDAS*/
+.compras {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxCompra {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-family: Quicksand;
+  font-size: large;
+  transition: color 0.5s;
+}
+
+.links:hover {
+  color: goldenrod;
+}
+
+/*TRADE*/
+.botonTrade {
+  display: flex;
+  justify-content: center;
+}
+
+/*Form Registro*/
+.bodyRegistro {
+  background: linear-gradient(to right, #011627, #4ecdc4);
+}
+
+.crearCuenta {
+  display: flex;
+  justify-content: center;
+  font-family: Quicksand;
+}
+
+.crearCuenta1 {
+  font-weight: bold;
+  font-size: xx-large;
+  color: white;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: Quicksand;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+}
+
+/*FOTOS*/
+.foto-productos {
+  position: absolute;
+  height: 720px;
+  top: 20%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .foto-productos {
+    height: 340px;
+    position: absolute;
+    top: 105%;
+    z-index: -1;
+  }
+}
+.foto-trade {
+  position: absolute;
+  height: 1020px;
+  top: -23%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .foto-trade {
+    height: 650px;
+    position: absolute;
+    top: 35%;
+    z-index: -1;
+  }
+}
+.foto-cripto {
+  background-image: url(img/bitcoin-banner5.png);
+  background-position: center center;
+}
+
+@media screen and (max-width: 768px) {
+  .foto-cripto {
+    height: 250px;
+    position: absolute;
+    top: 35%;
+    z-index: -1;
+  }
+}
+.foto-index {
+  height: 720px;
+  position: absolute;
+  z-index: -1;
+  top: 18%;
+  left: 38%;
+}
+
+@media screen and (max-width: 768px) {
+  .foto-index {
+    height: 480px;
+    position: absolute;
+    z-index: -1;
+    top: 75%;
+    left: 20%;
+  }
+}
+.foto-noticias {
+  opacity: 50%;
+  border-radius: 150px;
+  border: 3px solid cyan;
+}/*# sourceMappingURL=styles.css.map */
